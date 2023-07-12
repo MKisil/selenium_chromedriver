@@ -30,7 +30,7 @@ def get_data_with_selenium(url):
         print(ex)
     finally:
         driver.close()
-    driver.quit()
+        driver.quit()
 
 
 if __name__ == '__main__':
